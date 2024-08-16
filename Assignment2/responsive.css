@@ -1,0 +1,140 @@
+@media screen and (max-width: 576px){
+    body{
+        background-color: black;
+    }
+    .navbar-main .Fitness{
+        flex-direction: row;
+    }
+    .navbar-main .button-border{
+        display: none;
+    }
+    .navbar-main .nav-hamburger-menu{
+        display: block;
+        color: white;
+        width: 5%;
+    }
+
+    .banner{
+        flex-direction: column;
+        height: 100%;
+    }
+    .banner-childs-content{
+        width: 65%;
+        padding: 65px 0 0 80px;  
+    }
+    
+    .banner-childs-content h1{
+        font-weight: 1000;
+        font-size: 60px;
+    }
+    .banner-childs-content .btn{
+        width: 50%;
+    }
+
+    .banner-childs-content .btn1{
+        width: 45%;
+    }
+
+    .banner-childs-pic{
+        width: 100%;
+        padding-left: 50px;
+    }
+    .habits{
+        padding-bottom: 800px;
+    }
+    .habits .habits-content h1{
+        flex-direction: column;
+        font-size: 23px;
+        width: 80%;
+    }
+
+    .habits .habits-content p{
+        flex-direction: column;
+        font-size: 10px;
+        width: 80%;
+    }
+
+    .habits-pic{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+     .run-an-extra-container{
+        max-width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .run-bmi{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .run-an-extra-child{
+        max-width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+    .run-an-extra-child >img{
+        padding: 0px;
+        width: 280px;
+        height: 280px;
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+
+    .BMI-content{
+        flex-direction:column;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .BMI-calculator{
+        flex-direction:column;
+        width: 100%;
+    }
+
+    .BMI-calculator-form{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .meet-our-team-container{
+        flex-direction: row;
+    }
+
+
+    .meet-our-team-child-first{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .meet-our-team-child-second{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-main{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .footer-content>h1{
+        /* flex-direction: column; */
+        /* align-items: flex-start; */
+        margin-left: -100px;
+    }
+
+    .footer-main .footer-content p{
+        color: #777777;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-links{
+        flex-direction:row;
+        align-items: center;
+        padding-right: 20px;
+    }
+}
