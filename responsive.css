@@ -125,13 +125,19 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+
+    .review .review-pic{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
     .footer-main{
         flex-direction: column;
         padding-bottom: 20px;
+        
     }
     .footer-content>h1{
-        /* flex-direction: column; */
-        /* align-items: flex-start; */
         margin-left: -100px;
     }
 
