@@ -102,6 +102,15 @@
         margin: 0 auto;
     }
 
+    #sex{
+        width: 44%;
+    
+    }
+    #activity{
+        width: 89%;
+    }
+    
+
     .meet-our-team-container{
         flex-direction: row;
     }

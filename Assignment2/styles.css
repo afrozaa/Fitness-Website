@@ -390,10 +390,14 @@ input, select{
     margin-bottom: 30px;
 }
 
+.meet-our-team-container .image-container h2{
+    color: white;
+    font-size: 17px;
+}
 
 .meet-our-team-container p{
     color: #c0bcbc;
-    font-size: 15px;
+    font-size: 13px;
 }
 .meet-our-team-child-first{
     display: grid;
@@ -420,20 +424,8 @@ input, select{
     /* width: 100%; */
     gap:30px;
     padding-top: 30px;
-    
-    
-    
 }
 
-/* .meet-our-team-child-second img{
-    background-size: cover;
-    width: 470px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10%;
-    filter: brightness(80%);
-
-} */
 
 .image-container{
     max-width: 360px;
