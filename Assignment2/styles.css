@@ -169,7 +169,6 @@ header{
 
 .habits .habits-content p{
     color: #777777;
-    font-size: smaller;
     padding: 15px;
 }
 
@@ -396,8 +395,8 @@ input, select{
 }
 
 .meet-our-team-container p{
-    color: #c0bcbc;
-    font-size: 13px;
+    color:#777777;
+
 }
 .meet-our-team-child-first{
     display: grid;
